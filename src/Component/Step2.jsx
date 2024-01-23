@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { info } from "../Store/Slice";
 import classes from "./style.module.scss"
 
-const PlanStep = () => {
+const Step2 = () => {
   const user=useSelector(e=>e.user.value);
   const [yearly, setYearly] = useState({
     arcade: 90,
@@ -109,4 +109,4 @@ const PlanStep = () => {
   );
 };
 
-export default PlanStep;
+export default Step2;

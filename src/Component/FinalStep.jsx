@@ -2,7 +2,7 @@ import React from 'react'
 import thankyou from '../assets/images/icon-thank-you.svg'
 import classes from './style.module.scss';
 
-const ThankyouStep = () => {
+const FinalStep = () => {
   return (
     <div className={classes.thanks}>
         <img src={thankyou} alt="Subscription confirmed"/>
@@ -12,4 +12,4 @@ const ThankyouStep = () => {
   )
 }
 
-export default ThankyouStep
+export default FinalStep

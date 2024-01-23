@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { info } from '../Store/Slice';
 import classes from './style.module.scss';
 
-const Finishing = () => {
+const Step4 = () => {
   const dispatch=useDispatch();
   const user=useSelector(e=>e.user.value);
   const smbol=user.plantime=="Yearly"?"yr":"mo";
@@ -46,4 +46,4 @@ useEffect(()=>{
   )
 }
 
-export default Finishing
+export default Step4

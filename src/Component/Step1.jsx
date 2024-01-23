@@ -4,7 +4,7 @@ import { info } from "../Store/Slice";
 import classes from "./style.module.scss"
 import { useState, useEffect,useRef} from "react";
 
-const InfoStep = () => {
+const Step1 = () => {
   const dispatch = useDispatch();
   const user = useSelector(e => (e.user?.value));
   const [perinfo, setPer] = useState({
@@ -101,4 +101,4 @@ const InfoStep = () => {
   );
 };
 
-export default InfoStep;
+export default Step1;
